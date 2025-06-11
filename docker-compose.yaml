@@ -30,8 +30,6 @@ services:
   twitter_frontend:
     build: ../twitter_clone_frontend/
     container_name: twitter_frontend
-    environment:
-      - REACT_APP_API_URL=http://cheesecake.com
     restart: on-failure
 
   mongo:
