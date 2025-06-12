@@ -15,7 +15,7 @@ services:
     - MINIO_SECRET_KEY=ktMHR4qSYuH2KvtqbaWL857CVkDPTfCxmrEOYcbc
       
   twitter_tweet_service:
-    image: tevjwalker/twitter_tweet_service:2c011820b7c6b5184e97f82ce1b2a0da0387a63f
+    image: tevjwalker/twitter_tweet_service:a3e0bf236907dafa39865879791c64f5851d9018
     #build: ../twitter_clone_tweet_service/tweet_crud/
     container_name: twitter_tweet_service
     depends_on:
